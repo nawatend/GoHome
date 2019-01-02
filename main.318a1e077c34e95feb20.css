@@ -904,6 +904,10 @@ strong {
   color: #4589CD;
   font-size: 24px; }
 
+.menu__item--profilesetting {
+  text-decoration: line-through;
+  cursor: not-allowed !important; }
+
 @media (max-width: 400px) {
   .mode__rate--content {
     height: 50%; }
@@ -1512,7 +1516,8 @@ strong {
   background-color: red;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url(images/home_banner_bg_white.5906ea6.jpg); }
 
 #signin_error {
   color: #FF3333; }
@@ -2050,6 +2055,18 @@ strong {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
+
+#btnPublishHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  #btnPublishHome input {
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto; }
 
 .wrapper__detail {
   font-family: "Tajawal", sans-serif;
